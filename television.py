@@ -71,6 +71,7 @@ class Television:
                 self.__volume += 1
             else:
                 self.__volume = Television.MAX_VOLUME
+
     def volume_down(self) -> None:
         """
         Function sees if tv is on and if it is it'll change the volume down one
